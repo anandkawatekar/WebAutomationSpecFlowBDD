@@ -34,5 +34,6 @@ Here you can mention browser type on which you want to run tests. Currently you 
 - If you want to Run all test cases then in Test Explorer click 'Run All'
 
 ## How to access test result Report
-- Once you run test cases, it will generate html report(index.html) in root directory of assemblies. Example: <YourProjectFolderPath>/TestAutomationSpecFlow/bin/Debug/netcoreapp2.1/index.html
+- Once you run test cases, it will generate html report(index.html) in root directory of assemblies. 
+Example: <YourProjectFolderPath>/TestAutomationSpecFlow/bin/Debug/netcoreapp2.1/index.html
 - Open index.html file to view test report
