@@ -31,4 +31,4 @@ Here you can mention browser type on which you want to run tests. Currently you 
 - Go to solution explorer and right click on project name - Clean solution Then - Build
 - Open Test Explorer from Menu Test --> Windows --> Test explorer (you can short cut Ctrl+E,T)
 - Once you open Test Explorer you can right click on any test case and select run
-- I you want to Run all test cases then in Test Explorer click 'Run All'
+- If you want to Run all test cases then in Test Explorer click 'Run All'
