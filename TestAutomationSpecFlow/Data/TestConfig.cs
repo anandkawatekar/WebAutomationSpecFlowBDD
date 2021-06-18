@@ -15,6 +15,16 @@ namespace TestAutomationSpecFlow.Data
         {
             byte[] json = File.ReadAllBytes("config.json");
             TestConfig config = JsonSerializer.Deserialize<TestConfig>(json);
+
+            if (string.IsNullOrEmpty(config.BaseURL))
+            {
+                throw new Exception("BaseURL is not defined in config file.");
+            }
+            else if (string.IsNullOrEmpty(config.Browser))
+            {
+                throw new Exception("Browser is not defined in config file.");
+            }
+
             return config;
         }
     }
