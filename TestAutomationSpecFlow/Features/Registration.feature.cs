@@ -87,24 +87,6 @@ namespace TestAutomationSpecFlow.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Register user")]
-        public virtual void RegisterUser()
-        {
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Register user", null, ((string[])(null)), argumentsOfScenario);
-            this.ScenarioInitialize(scenarioInfo);
-            this.ScenarioStart();
-            testRunner.Given("A user is on landing page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-            testRunner.When("User clicks Sign in on landing page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-            testRunner.And("User begins to create account by entering email address", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-            testRunner.And("User enters personal information on create account page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-            testRunner.And("clicks on Register button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-            testRunner.Then("I validate on the landing screen - correct user name is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-            testRunner.And("I logout and login again", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Create Account by entering email address")]
         public virtual void CreateAccountByEnteringEmailAddress()
         {
