@@ -36,7 +36,7 @@ namespace TestAutomationSpecFlow
         [BeforeTestRun]
         public static void BeforeTestRun()
         {
-            _extentHtmlReporter = new ExtentHtmlReporter(Directory.GetCurrentDirectory() + @"\TestReport.html");
+            _extentHtmlReporter = new ExtentHtmlReporter(Directory.GetCurrentDirectory() + @"\index.html");
             _extentReports = new ExtentReports();
             _extentReports.AttachReporter(_extentHtmlReporter);
         }
